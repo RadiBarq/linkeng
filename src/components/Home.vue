@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <div class="h-[526px] md:h-[518px] w-full">
+  <div class="bg-gray-100 h-full">
+    <div class="h-2/3 w-full">
       <!-- Hero Image for tablets and above -->
       <img
         src="@/assets/images/home_image.png"
         alt="Hero"
-        class="absolute top-0 left-0 w-full h-[526px] md:h-[518px] object-cover"
+        class="absolute top-0 left-0 w-full h-2/3 object-cover"
       />
 
       <!-- Hero Image for mobile phones -->
       <img
         src="@/assets/images/home_image_mobile.png"
         alt="Hero"
-        class="absolute top-0 left-0 w-full h-[518px] md:h-[530px] object-cover md:hidden"
+        class="absolute top-0 left-0 w-full h-2/3 object-cover md:hidden"
       />
 
       <!-- English Button on top-right -->
@@ -36,7 +36,7 @@
 
       <!-- Content centered on the hero -->
       <div
-        class="absolute mt-8 md:mt-0 top-1/3 w-3/4 md:w-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
+        class="absolute top-1/3 lg:top-1/3 w-3/4 md:w-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
       >
         <!-- Company Logo -->
         <img
@@ -65,25 +65,33 @@
         <div
           class="flex flex-row space-x-4 md:space-x-4 justify-center mt-20 md:mt-12"
         >
-          <a href="#" class="text-blue-500 hover:text-blue-600">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/linkeng_ps"
+            class="text-blue-500 hover:text-blue-600"
+          >
             <img src="@/assets/images/instagram_logo.png" />
           </a>
-          <a href="#" class="text-blue-400 hover:text-blue-500">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/link-eng-297829291"
+            class="text-blue-400 hover:text-blue-500"
+          >
             <img src="@/assets/images/linkedin_logo.png" />
           </a>
-          <a href="#" class="text-red-500 hover:text-red-600">
+          <a target="_blank" href="#" class="text-red-500 hover:text-red-600">
             <img src="@/assets/images/email_logo.png" />
           </a>
-          <a href="#" class="text-red-500 hover:text-red-600">
+          <a href="tel:+970594077792" class="text-red-500 hover:text-red-600">
             <img src="@/assets/images/call_logo.png" />
           </a>
         </div>
       </div>
     </div>
 
-    <!-- Englisj Features Section -->
-    <div v-if="isEnglish" class="bg-gray-100 md:pt-72 pt-96">
-      <div class="max-w-4xl mx-auto py-36 md:py-36 text-left">
+    <!-- English Features Section -->
+    <div v-if="isEnglish" class="bg-gray-100 absolute top-2/3 w-full">
+      <div class="bg-gray-100 max-w-4xl mx-auto text-left pb-10 pt-10">
         <!-- Bullet Points -->
         <ul class="space-y-6 pl-4 md:pl-4">
           <li
@@ -135,8 +143,8 @@
     </div>
 
     <!-- Arabic Features Section -->
-    <div v-if="!isEnglish" class="bg-gray-100 md:pt-72 pt-96">
-      <div class="max-w-4xl mx-auto py-36 md:py-36 text-right">
+    <div v-if="!isEnglish" class="bg-gray-100 absolute top-2/3 w-full">
+      <div class="bg-gray-100 max-w-4xl mx-auto text-left pb-10 pt-10">
         <!-- Bullet Points -->
         <ul class="space-y-6 ml-4 pr-4 md:ml-4 md:pr-4">
           <li
