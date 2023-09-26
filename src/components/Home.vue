@@ -74,12 +74,12 @@
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/link-eng-297829291"
+            href="https://www.linkedin.com/company/100062189/admin/feed/posts/?feedType=following"
             class="text-blue-400 hover:text-blue-500"
           >
             <img src="@/assets/images/linkedin_logo.png" />
           </a>
-          <a target="_blank" href="#" class="text-red-500 hover:text-red-600">
+          <a href="info@linkeng.ps" class="text-red-500 hover:text-red-600">
             <img src="@/assets/images/email_logo.png" />
           </a>
           <a href="tel:+970594077792" class="text-red-500 hover:text-red-600">
