@@ -3,7 +3,7 @@
     <div class="h-2/3 w-full">
       <!-- Hero Image for tablets and above -->
       <img
-        src="@/assets/images/home_image.png"
+        src="@/assets/images/background_logo_1.svg"
         alt="Hero"
         class="absolute top-0 left-0 w-full h-2/3 object-cover"
       />
@@ -40,7 +40,7 @@
       >
         <!-- Company Logo -->
         <img
-          src="@/assets/images/linkeng_logo.png"
+          src="@/assets/images/linkeng.svg"
           alt="Company Logo"
           class="w-60 md:w-80 mx-auto"
         />
@@ -70,23 +70,23 @@
             href="https://www.instagram.com/linkeng_ps"
             class="text-blue-500 hover:text-blue-600"
           >
-            <img src="@/assets/images/instagram_logo.png" />
+            <img src="@/assets/images/instagram.svg" />
           </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/company/100062189/admin/feed/posts/?feedType=following"
             class="text-blue-400 hover:text-blue-500"
           >
-            <img src="@/assets/images/linkedin_logo.png" />
+            <img src="@/assets/images/linked_in.svg" />
           </a>
           <a
-            href="mailto: info@linkeng.ps"
+            href="mailto:info@linkeng.ps"
             class="text-red-500 hover:text-red-600"
           >
-            <img src="@/assets/images/email_logo.png" />
+            <img src="@/assets/images/email.svg" />
           </a>
           <a href="tel:+970594077792" class="text-red-500 hover:text-red-600">
-            <img src="@/assets/images/call_logo.png" />
+            <img src="@/assets/images/call.svg" />
           </a>
         </div>
       </div>
@@ -102,7 +102,7 @@
           >
             <img
               class="h-10 mr-0 md:mr-10"
-              src="@/assets/images/first_point_icon.png"
+              src="@/assets/images/first_logo.svg"
             />
             <span class="text-black font-semibold"
               >Linkeng is your trusted partner for streamlined engineering
@@ -117,7 +117,7 @@
           >
             <img
               class="w-10 mr-0 md:mr-10"
-              src="@/assets/images/second_point_icon.png"
+              src="@/assets/images/second_logo.svg"
             />
             <span class="text-black font-semibold"
               >Our role is to connect with your company or office, understand
@@ -131,7 +131,7 @@
           >
             <img
               class="w-10 mr-0 md:mr-10"
-              src="@/assets/images/third_point_icon.png"
+              src="@/assets/images/third_logo.svg"
             />
             <span class="text-black font-semibold"
               >With Linkeng, you can focus on your core business while we
@@ -161,7 +161,7 @@
             >
             <img
               class="h-10 ml-0 md:ml-10"
-              src="@/assets/images/first_point_icon.png"
+              src="@/assets/images/first_logo.svg"
             />
           </li>
           <li
@@ -174,7 +174,7 @@
             </span>
             <img
               class="w-10 ml-0 md:ml-10"
-              src="@/assets/images/second_point_icon.png"
+              src="@/assets/images/second_logo.svg"
             />
           </li>
           <li
@@ -187,7 +187,7 @@
             </span>
             <img
               class="w-10 ml-0 md:ml-10"
-              src="@/assets/images/third_point_icon.png"
+              src="@/assets/images/third_logo.svg"
             />
           </li>
         </ul>
