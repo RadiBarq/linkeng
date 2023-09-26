@@ -79,7 +79,10 @@
           >
             <img src="@/assets/images/linkedin_logo.png" />
           </a>
-          <a href="info@linkeng.ps" class="text-red-500 hover:text-red-600">
+          <a
+            href="mailto: info@linkeng.ps"
+            class="text-red-500 hover:text-red-600"
+          >
             <img src="@/assets/images/email_logo.png" />
           </a>
           <a href="tel:+970594077792" class="text-red-500 hover:text-red-600">
