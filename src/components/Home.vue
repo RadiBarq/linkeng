@@ -74,7 +74,7 @@
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/company/100062189/admin/feed/posts/?feedType=following"
+            href="https://www.linkedin.com/company/linkeng"
             class="text-blue-400 hover:text-blue-500"
           >
             <img src="@/assets/images/linked_in.svg" />
